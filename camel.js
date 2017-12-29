@@ -589,9 +589,9 @@ function generateRss(request, feedUrl, linkGenerator, completion) {
 		feed_url: siteMetadata.SiteRoot + feedUrl,
 		site_url: siteMetadata.SiteRoot,
 		image_url: siteMetadata.SiteRoot + '/images/favicon.png',
-		author: 'Your Name',
-		copyright: '2013-' + new Date().getFullYear() + ' Your Name',
-		language: 'en',
+		author: 'Jannis Krämer',
+		copyright: '2017-' + new Date().getFullYear() + ' Jannis Krämer',
+		language: 'de',
 		pubDate: new Date().toString(),
 		ttl: '60'
 	});

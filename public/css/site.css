@@ -1,6 +1,6 @@
 h1 {
 	font-family: 'Eczar', serif;
-	font-size: 400%;
+	font-size: calc(18pt + 5vw);
 	text-align: center;
 	text-decoration: none;
 	margin-bottom: 0px;
@@ -15,7 +15,7 @@ h1 a {
     margin:0;
     padding:0;
 	text-align:center;
-	font-size: 150%;
+	font-size: calc(10pt + 1.5vw);
 	font-weight: bold;
 	border-bottom: 10px solid #e19d9d;
 }
@@ -36,8 +36,8 @@ h1 a {
 
 .postTitle {
 	font-family: 'Eczar', serif;
-	font-size: 300%;
-	
+	font-size: calc(11pt + 3vw);
+	min-height: 200%;
 }
 
 a.postTitle  {
@@ -57,11 +57,12 @@ a.postTitle:hover {
 
 body {
 	font-family: 'Gentium Basic', serif;
-	margin-left: 15%;
-	margin-right: 15%;
+	font-size: calc(12pt + 0.2vw);
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
 
-code {
+code:not(.hljs) {
 	font-family: 'PT Mono', monospace;
 	background: #F0F0F0;
 	padding: 5px 3px;
